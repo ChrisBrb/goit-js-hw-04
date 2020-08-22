@@ -16,7 +16,7 @@ function mapArray(array, cb) {
     const element = array[i];
     const index = i;
      numbers[i] = cb(element, index);
-  }
+  } 
   return numbers;
 }
 
